@@ -1,0 +1,41 @@
+.fundo {
+   background: #FDDA2D;
+background: radial-gradient(circle,rgba(253, 218, 45, 1) 29%, rgba(44, 222, 145, 1) 100%);
+}
+
+.txt {
+    color: rgb(226, 132, 8);
+    font-size: 5em;
+    text-align: center;       
+    margin-top: 120px; 
+    text-shadow: 5px 0 #38688f;
+}
+
+.container {
+    text-align: center; 
+}
+
+.myButton {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18f52e;
+	display:block;
+	cursor:pointer;
+	color:#ffe0ff;
+	font-family:Arial;
+	font-size:28px;
+	padding:17px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    text-align: center;       
+    margin-top: 40px;       
+    margin-left: auto;     
+    margin-right: auto;  
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
