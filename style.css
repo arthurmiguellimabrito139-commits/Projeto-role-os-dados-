@@ -39,3 +39,19 @@ background: radial-gradient(circle,rgba(253, 218, 45, 1) 29%, rgba(44, 222, 145,
 	position:relative;
 	top:1px;
 }
+
+#result {
+	font-size: 3em;
+}
+
+@keyframes rolar {
+    0%   { transform: rotate(0deg) scale(1); }
+    20%  { transform: rotate(90deg) scale(0.8); }
+    40%  { transform: rotate(180deg) scale(1.2); }
+    60%  { transform: rotate(270deg) scale(0.8); }
+    100% { transform: rotate(360deg) scale(1); }
+}
+
+.dado-rolando {
+    animation: rolar 0.5s ease-in-out;
+}
